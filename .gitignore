@@ -1,0 +1,23 @@
+﻿.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.vscode/
+
+spring-petclinic-microservices/
+backup-trabalho06/
+
+*.zip
+README_backup.md
+results/diagnostico/
+
+# Ensaios preliminares
+results/csv/ensaio_*
+results/cpu/ensaio_*
+
+# Testes auxiliares do monitoramento
+results/cpu/teste_monitoramento.csv
+results/cpu/teste_monitor_corrigido.csv
+
+# Verificações técnicas separadas da coleta oficial
+results/validacao/

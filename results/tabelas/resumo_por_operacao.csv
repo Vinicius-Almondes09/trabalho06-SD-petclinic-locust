@@ -1,0 +1,25 @@
+﻿perfil,cenario,usuarios,operacao,repeticoes,requisicoes_total,falhas_total,tempo_medio_ms,p95_ms_media,falhas_percentual
+escrita,A,30,GET /owners,10,11700,34,101.3798,181.0,0.2906
+escrita,A,30,GET /owners/{id},10,11642,40,7.4552,10.7,0.3436
+escrita,A,30,GET /vets,10,11606,34,6.5984,10.0,0.293
+escrita,A,30,POST /owners,10,23011,72,46.4688,63.9,0.3129
+escrita,B,80,GET /owners,10,20533,2713,1661.5982,8800.0,13.2129
+escrita,B,80,GET /owners/{id},10,20356,2145,804.3705,5280.0,10.5374
+escrita,B,80,GET /vets,10,20536,2005,7.2636,12.9,9.7633
+escrita,B,80,POST /owners,10,40715,4198,819.39,5170.0,10.3107
+escrita,C,150,GET /owners,10,42396,30909,932.1014,7820.0,72.9055
+escrita,C,150,GET /owners/{id},10,42220,30062,675.1711,5020.0,71.2032
+escrita,C,150,GET /vets,10,42426,29019,5.1149,9.2,68.3991
+escrita,C,150,POST /owners,10,84727,60677,721.9911,5100.0,71.6147
+leitura,A,30,GET /owners,10,26580,0,23.9271,37.6,0.0
+leitura,A,30,GET /owners/{id},10,20512,0,7.3676,10.6,0.0
+leitura,A,30,GET /vets,10,8900,0,7.5324,10.6,0.0
+leitura,A,30,POST /owners,10,2937,0,55.1818,65.4,0.0
+leitura,B,80,GET /owners,10,69276,1623,53.499,110.6,2.3428
+leitura,B,80,GET /owners/{id},10,54245,1285,8.2028,12.3,2.3689
+leitura,B,80,GET /vets,10,23082,522,10.1276,11.8,2.2615
+leitura,B,80,POST /owners,10,7751,161,56.2512,66.5,2.0772
+leitura,C,150,GET /owners,10,99842,4362,685.8187,2150.0,4.3689
+leitura,C,150,GET /owners/{id},10,78262,3532,474.7084,1690.0,4.513
+leitura,C,150,GET /vets,10,33407,1497,7.6126,13.5,4.4811
+leitura,C,150,POST /owners,10,11191,476,502.6251,1710.0,4.2534
